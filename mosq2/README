@@ -1,0 +1,13 @@
+When detector_state is run by the user they will be prompted with an option to enter the room and the status of the room
+There are 3 rooms. These rooms are named 1, 2 and 3. 
+When detector_state is run, the status of only one room can be changed. (Must be run twice to change the status of two seperate rooms) 
+The status entered must be ON or OFF (all caps). 
+
+dash.sh is the layout of the dashboard for the user to see the status for each room
+dashboard.sh will print out this dash.sh script every second in case there is a change. 
+
+the detector and sprinkler folders each contain 3 subfolders (1,2 and 3 - a folder representing each room)
+inside these subfolders, there is a log file containing the status of each room for sprinklers and the detector. 
+
+
+
